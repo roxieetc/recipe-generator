@@ -98,6 +98,14 @@ function Recipes() {
             })}
         </div>
       </div>
+{/* FOOTER SECTION */}
+        <div className="footer-container bg-green-600 text-white text-lg py-12 text-center">
+            <p>All original content and design &copy; to Roxie Schnoor 2023</p>
+            <p>API data from themealdb.com</p>
+            <p>Images sourced from unsplash.com</p>
+            <button className="bg-white text-green-600 font-bold tracking-[.05rem] px-10 py-3 rounded-full mr-5 mt-5 hover:scale-105 duration-300 hover:cursor-pointer hover:text-green-700"><a href="https://github.com/roxieetc/recipe-generator" target="_blank">Github</a></button>
+            <button className="bg-white text-green-600 font-bold tracking-[.05rem] px-10 py-3 rounded-full mr-5 mt-5 hover:scale-105 duration-300 hover:cursor-pointer hover:text-green-700"><a href="https://www.linkedin.com/in/roxieschnoor/" target="_blank">LinkedIn</a></button> 
+        </div>
       </section>
     )
 }
