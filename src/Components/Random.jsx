@@ -26,7 +26,7 @@ function Random () {
      
               return (
                 
-                <div class="text-slate-700 p-5 max-w-2xl bg-white border border-slate-300 rounded-2xl shadow-md m-auto">
+                <div class="text-slate-700 p-5 max-w-2xl bg-white border border-slate-300 rounded-2xl shadow-md mx-2 sm:m-auto">
                         <img class="rounded-full h-[25rem] w-auto flex m-auto mt-4" src={recipe.strMealThumb} alt="" />
                     <div class="p-5">
                             <h5 class="mb-2 text-[3rem] font-bold tracking-tight text-gray-900 dark:text-white text-center">{recipe.strMeal}</h5>

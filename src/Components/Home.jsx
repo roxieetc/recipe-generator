@@ -25,7 +25,7 @@ function Recipes() {
             </div>
             <div className="relative h-[80vh] flex items-center">
                 <div className="md:ml-20 text-center md:text-left">
-                    <h1 className="text-black text-7xl lg:text-8xl font-serif drop-shadow-md">Sprinkle & Dash</h1>
+                    <h1 className="text-black text-6xl md:text-8xl font-serif drop-shadow-md">Sprinkle & Dash</h1>
                     <p className="text-slate-700 text-2xl mt-5 ml-2">Bringing dishes from around the world to your kitchen</p>
                 </div>
             </div>
@@ -103,8 +103,8 @@ function Recipes() {
             <p>All original content and design &copy; to Roxie Schnoor 2023</p>
             <p>API data from themealdb.com</p>
             <p>Images sourced from unsplash.com</p>
-            <button className="bg-white text-green-600 font-bold tracking-[.05rem] px-10 py-3 rounded-full mr-5 mt-5 hover:scale-105 duration-300 hover:cursor-pointer hover:text-green-700"><a href="https://github.com/roxieetc/recipe-generator" target="_blank">Github</a></button>
-            <button className="bg-white text-green-600 font-bold tracking-[.05rem] px-10 py-3 rounded-full mr-5 mt-5 hover:scale-105 duration-300 hover:cursor-pointer hover:text-green-700"><a href="https://www.linkedin.com/in/roxieschnoor/" target="_blank">LinkedIn</a></button> 
+            <button className="bg-white text-green-600 font-bold tracking-[.05rem] px-10 py-3 rounded-full mr-5 mt-5 hover:cursor-pointer hover:bg-green-100"><a href="https://github.com/roxieetc/recipe-generator" target="_blank">Github</a></button>
+            <button className="bg-white text-green-600 font-bold tracking-[.05rem] px-10 py-3 rounded-full mr-5 mt-5 hover:cursor-pointer hover:bg-green-100"><a href="https://www.linkedin.com/in/roxieschnoor/" target="_blank">LinkedIn</a></button> 
         </div>
       </section>
     )
