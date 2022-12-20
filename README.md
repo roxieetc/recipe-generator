@@ -3,7 +3,7 @@
 ---
 **This app was created using:**
 - ReactJS
-- TailwindCSS
+- Tailwind CSS
 - themealdb.com API
 
 ---
